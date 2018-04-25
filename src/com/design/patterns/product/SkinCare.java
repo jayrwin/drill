@@ -1,4 +1,4 @@
-package com.design.patterns.factory.product;
+package com.design.patterns.product;
 
 /**
  * Created by laiyunjie on 2018/4/23.

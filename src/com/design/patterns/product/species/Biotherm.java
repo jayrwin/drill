@@ -1,6 +1,6 @@
-package com.design.patterns.factory.product.species;
+package com.design.patterns.product.species;
 
-import com.design.patterns.factory.product.SkinCare;
+import com.design.patterns.product.SkinCare;
 
 /**
  * Created by laiyunjie on 2018/4/23.

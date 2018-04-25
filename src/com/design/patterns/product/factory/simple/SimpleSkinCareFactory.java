@@ -1,14 +1,14 @@
-package com.design.patterns.factory;
+package com.design.patterns.product.factory.simple;
 
-import com.design.patterns.factory.product.SkinCare;
-import com.design.patterns.factory.product.species.Biotherm;
-import com.design.patterns.factory.product.species.Clinique;
-import com.design.patterns.factory.product.species.Sulwhaso;
+import com.design.patterns.product.SkinCare;
+import com.design.patterns.product.species.Biotherm;
+import com.design.patterns.product.species.Clinique;
+import com.design.patterns.product.species.Sulwhaso;
 
 /**
  * Created by laiyunjie on 2018/4/24.
  */
-public class SkinCareFactory {
+public class SimpleSkinCareFactory {
 
     public SkinCare getSkinCare(String name){
         if("biotherm".equalsIgnoreCase(name)){
